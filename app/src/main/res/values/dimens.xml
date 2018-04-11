@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <dimen name="question">16sp</dimen>
+    <dimen name="answer">16sp</dimen>
+    <dimen name="questionPadding">24dp</dimen>
+    <dimen name="answerPadding">40dp</dimen>
+    <dimen name="titleSize">40sp</dimen>
+
+</resources>

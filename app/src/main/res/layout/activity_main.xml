@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.quizappsj.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:padding="@dimen/questionPadding"
+            android:text="Ski Jumping Quiz"
+            android:textColor="@color/colorButton"
+            android:textSize="@dimen/titleSize" />
+
+        <TextView
+            android:id="@+id/quest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/questionPadding"
+            android:text="@string/question1"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/question" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/answerPadding"
+            android:paddingRight="@dimen/answerPadding">
+
+            <CheckBox
+                android:id="@+id/ans1A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans1A"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <CheckBox
+                android:id="@+id/ans1B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans1B"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <CheckBox
+                android:id="@+id/ans1C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans1C"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <CheckBox
+                android:id="@+id/ans1D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans1D"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/quest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/questionPadding"
+            android:text="@string/question2"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/question" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/answerPadding"
+            android:paddingRight="@dimen/answerPadding">
+
+            <RadioButton
+                android:id="@+id/ans2A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans2A"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans2B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans2B"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans2C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans2C"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans2D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans2D"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/questionPadding"
+            android:text="@string/question3"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/question" />
+
+        <EditText
+            android:id="@+id/ans3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/answerPadding"
+            android:layout_marginRight="@dimen/answerPadding"
+            android:hint="Type your ans here"
+            android:inputType="number"
+            android:textSize="@dimen/answer" />
+
+        <TextView
+            android:id="@+id/quest4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/questionPadding"
+            android:text="@string/question4"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/question" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/answerPadding"
+            android:paddingRight="@dimen/answerPadding">
+
+            <RadioButton
+                android:id="@+id/ans4A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans4A"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans4B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans4B"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans4C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans4C"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans4D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans4D"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/quest5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/questionPadding"
+            android:text="@string/question5"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/question" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/answerPadding"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/answerPadding"
+            android:paddingRight="@dimen/answerPadding">
+
+            <RadioButton
+                android:id="@+id/ans5A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans5A"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans5B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans5B"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans5C"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+            <RadioButton
+                android:id="@+id/ans5D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ans5D"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textSize="@dimen/answer" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/questionPadding"
+            android:background="@color/colorPrimary"
+            android:onClick="onClickSubmit"
+            android:padding="@dimen/questionPadding"
+            android:text="@string/button"
+            android:textAllCaps="true"
+            android:textColor="@color/colorButton"
+            android:textSize="@dimen/question" />
+
+    </LinearLayout>
+
+</ScrollView>

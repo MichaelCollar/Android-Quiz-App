@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">QuizAppSJ</string>
+    <string name="question1">Which ski jumpers have at least 3 gold medals in the Olympics?</string>
+    <string name="question2">Which ski jumper has the most gold medals in the World Cup competitions?</string>
+    <string name="question3">How many times did Thomas Morgenstern win the World Championships?</string>
+    <string name="question4">How old was the oldest winner of the World Cup competition?</string>
+    <string name="question5">What is the current world record in the length of the ski jump?</string>
+    <string name="ans1A">Kamil Stoch</string>
+    <string name="ans1B">Gregor Schlierenzauer</string>
+    <string name="ans1C">Thomas Morgenstern</string>
+    <string name="ans1D">Simon Ammann</string>
+    <string name="ans2A">Gregor Schlierenzauer</string>
+    <string name="ans2B">Janne Ahonen</string>
+    <string name="ans2C">Noriaki Kasai</string>
+    <string name="ans2D">Adam Malysz</string>
+    <string name="ans4A">44yr.</string>
+    <string name="ans4B">42yr.</string>
+    <string name="ans4C">38yr.</string>
+    <string name="ans4D">40yr.</string>
+    <string name="ans5A">251,5m</string>
+    <string name="ans5B">253,5m</string>
+    <string name="ans5C">246,5m</string>
+    <string name="ans5D">248m</string>
+    <string name="button">submit answers</string>
+
+</resources>
