@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/answerPadding"
             android:layout_marginRight="@dimen/answerPadding"
-            android:hint="Type your ans here"
+            android:hint="Type your answer here"
             android:inputType="number"
             android:textSize="@dimen/answer" />
 
