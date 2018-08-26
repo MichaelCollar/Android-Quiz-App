@@ -3,4 +3,4 @@ Simple Ski Jumping Quiz Mobile App created in Android Studio.
 
 Tested on: Nexus 5X, API: 27.
 
-<img src="http://cmsweb.pl/wp-content/uploads/2018/04/quiz-app.png" width="320">
+<img src="https://whitelistnews.com/wp-content/uploads/2018/08/quiz_app.png" width="320">
